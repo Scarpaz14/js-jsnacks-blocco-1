@@ -1,10 +1,13 @@
 
-const numberFist = prompt("Inserisci il primo numero numero");
-const numbersecond = prompt("Inserisci il secondo numero numero");
+const firstNumber = prompt("Inserisci il primo numero numero");
+const secondNumber = prompt("Inserisci il secondo numero numero");
 
-if (numberFist > numbersecond){
-    console.log( numberFist);
+if (firstNumber > secondNumber){
+    console.log( firstNumber);
+}
+else if (firstNumber < secondNumber){
+    console.log(secondNumber);
 }
 else{
-    console.log(numbersecond);
+    console.log("Pareggio, rigioca")
 }
